@@ -1,0 +1,15 @@
+{
+    "name": "artemsuchkov/hello-world",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Artemsuchkov\\HelloWorld\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Artem Suchkov"
+        }
+    ],
+    "require": {}
+}
