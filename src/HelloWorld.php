@@ -6,7 +6,7 @@ class HelloWorld {
 
     public $msg;
 
-    function __construct($msg) 
+    function __construct($msg=null) 
     {
         $this->msg = (!empty($msg)) ? $msg : "Hello world!";
     }
